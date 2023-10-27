@@ -9,4 +9,6 @@ RUN npm install
 
 EXPOSE ${PORT}
 
-CMD npm run dev
+ENTRYPOINT [ "npm", "run" ]
+
+CMD ["start"]
